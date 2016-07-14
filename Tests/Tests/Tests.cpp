@@ -217,7 +217,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	DWORD aa;
 
 	memcpy(&aa, "RSA1", 4);
-	reverseBytes(data, 128);
 
 	printf("done\n");
 
