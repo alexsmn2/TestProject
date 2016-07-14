@@ -1,2 +1,3 @@
-Tests/Tests/Release/
-Tests/Tests/Debug/
+/Tests/Tests/Release
+/Tests/Tests/Debug
+*.sdf

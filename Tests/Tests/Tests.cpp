@@ -169,21 +169,6 @@ public:
 
 
 
-
-
-void reverseBytes(unsigned char *start, int size) 
-{
-    unsigned char *lo = start;
-    unsigned char *hi = start + size - 1;
-    unsigned char swap;
-    while (lo < hi) {
-        swap = *lo;
-        *lo++ = *hi;
-        *hi-- = swap;
-    }
-}
-
-
 int _tmain(int argc, _TCHAR* argv[])
 {
 	PUBLICKEYSTRUC pubStruct;
